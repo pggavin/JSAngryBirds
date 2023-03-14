@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VFS HTML5 Base</title>
+    <link rel="stylesheet" href="./ClientServer/css/style.css" />
+
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VFS HTML5 Base">
+
+    <link rel="stylesheet" type="text/css" href="./ClientServer/css/style-base.css">
+    <link rel="stylesheet" type="text/css" href="./ClientServer/css/style-grid.css">
+    <link rel="stylesheet" type="text/css" href="./ClientServer/css/style-flex.css">
+    <link rel="stylesheet" type="text/css" href="./ClientServer/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+</head>
+<div class="hudelement">
+    client server demo
+</div>
+
+<body style="
+    background-image: url('./ClientServer/images/Angry-Birds-Screenshot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    " class="grid-wrapper"">
+    <div class=" rightnav hudelement">
+
+    <h1>Item Name</h1>
+
+    <div class="image-box">
+        <img src="./ClientServer/images/ItemFrame.png" alt="Item Frame">
+        <img src="./ClientServer/images/CheeseBurger.png" class="frameitem" alt="Cheese Burger">
+    </div>
+
+    A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the
+    meat patty. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the
+    cheese to melt. Cheeseburgers can include variations in structure, ingredients and composition. As with other
+    hamburgers, a cheeseburger may include toppings such as lettuce, tomato, onion, pickles, bacon, mayonnaise,
+    ketchup, and mustard.
+    <br><br>
+    In fast food restaurants, the cheese used in cheeseburgers is usually processed cheese. Other meltable cheeses
+    may be used as alternatives. Common examples include cheddar, Swiss, mozzarella, blue cheese, and pepper jack.
+    Popular restaurants that sell cheeseburgers include McDonald's, Burger King, Wendy's, and many more.
+    </div><!-- Demo text -->
+
+    <main class="grid-row-main grid-column-main">
+
+        <section id="screen-1" class="flexbox">
+            <!-- Where the button used to be -->
+
+            <button id="press-me" class="hudelement">Press Me</button>
+            <dialog id="result-dlg" class="hudelement" style="color: black;">
+                Something happened 
+                <form id="fav-bev-form">
+                    <label for="fav-bev" style="color: black;">What is your favorite beverage</label>
+                    <input name="fav-bev" type="text" value="" placeholder="Coke" />
+                    <input name="submit" type="Submit" value="Send it!" />
+                </form>
+                <button id="close-me" class="hudelement">Close</button>
+                <button id="send-me" class="hudelement">Send</button>
+            </dialog>
+
+        </section>
+        <section id="screen-2">
+
+        </section>
+
+    </main>
+
+
+    <!-- IGNORE THIS!!! -->
+    <!-- Items will be added via script later, this is only for demonstration purposes-->
+    <div class="image-scrollbar hudelement">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <img src="./ClientServer/images/CheeseBurger.png" alt="Cheese Burger">
+        <!-- Add images here thru code -->
+    </div>
+    <!-- IGNORE THIS!!! -->
+
+
+    <footer class="hudelement grid-row-main">
+        Copyright &copy 2022, Gavin Van Hussen
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
